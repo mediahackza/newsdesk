@@ -127,3 +127,8 @@
   opacity: 0.5;
   margin-left: 10px;
 }
+.nd-bold {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
