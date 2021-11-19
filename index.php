@@ -117,7 +117,7 @@ if ( $pages->have_posts() ) {
         $row .= "<tr class='nd-row-spacer'><td colspan='3'></td></tr>";
         $row .= "<tr class='nd-title-row'>";
         $row .= "<td class='newsdesk-td newsdesk-title' colspan='3'><a href='" . get_the_permalink() . "' target='_blank' class='nd-title-link'>" . get_the_title() . "</a>
-        <div class='nd-editing-options'><a href='post.php?post=" . get_the_id() . "&action=edit' target='_blank' class='nd-title-link'>Edit</a> | <a href='" . get_the_permalink() . "' target='_blank' class='nd-title-link'>View</a></div> " . $wc . " words " . $lu . " 
+        <div class='nd-editing-options'><a href='post.php?post=" . get_the_id() . "&action=edit' target='_blank' class='nd-title-link'>Edit</a> | <a href='" . get_the_permalink() . "' target='_blank' class='nd-title-link'>View</a></div> 
         </td><tr>";
         // Post details
         $row .= "<tr class='nd-body-row'>";
