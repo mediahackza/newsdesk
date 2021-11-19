@@ -14,10 +14,12 @@ At this stage Newsdesk does the following:
 
 - List pages and posts recently published in reverse chronological order
 - Allows filtering by either "posts" or "pages"
+- Lists word counts for posts/pages (in testing)
+- List last updated date and time
 
 ### To Do
 
 - Possibly rename plugin to "MetaDesk"
-- Add word counts to listings
-- Add "most recent edit" to listings
+- ~~Add word counts to listings~~
+- ~~Add "most recent edit" to listings~~
 - Filter by different categories
