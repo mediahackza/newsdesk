@@ -122,7 +122,7 @@ if ( $pages->have_posts() ) {
         // Post details
         $row .= "<tr class='nd-body-row'>";
         $row .= "<td class='newsdesk-td '>"; 
-        $row .= "<span class='nd-bold'>Words: </span>" . $wc; 
+        $row .= "<span class='nd-bold'>Words: </span>" . number_format($wc); 
         $row .= "</td>";
         $row .= "<td class='newsdesk-td '>";
         $row .= "</td>";
