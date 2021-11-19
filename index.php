@@ -36,7 +36,7 @@ function newsdesk_last_updated( $content ) {
     $u_modified_time = get_the_modified_time('U'); 
     if ($u_modified_time >= $u_time + 86400) { 
     $updated_date = get_the_modified_time('F j, Y');
-    $updated_time = get_the_modified_time('H:m'); 
+    $updated_time = get_the_modified_time('H:M'); 
     // $custom_content .= '<p class="last-updated">Last updated on '. $updated_date . ' at '. $updated_time .'</p>';  
     } 
      
@@ -138,7 +138,7 @@ if ( $pages->have_posts() ) {
         $row .= "<td class='newsdesk-td'><span class='nd-author'>Posted By</span> &nbsp; " . get_the_author() . "</td>";
         $row .= "<td class='newsdesk-td'>"; 
         if(get_post_status() == "publish") { $row .= "<span class='nd-published'>Published</span>"; } else { $row .= "<span class='nd-status-other'>Not published</span>"; }
-        $row .= " &nbsp; " . get_the_date('F j, Y H:m ');
+        $row .= " &nbsp; " . get_the_date('F j, Y H:M ');
         $row .= "</td>";
         $row .= "</tr>";
         
