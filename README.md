@@ -24,4 +24,5 @@ At this stage Newsdesk does the following:
 - ~~Add "most recent edit" to listings~~
 - Filter by different categories
 - Fix timezones on published/updated (or disclaim the zone used - currently GMT)
-- Format thousands with separator
+- ~~Format thousands with separator~~
+- ~~Remove meta from article header~~
