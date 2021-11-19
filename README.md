@@ -23,3 +23,4 @@ At this stage Newsdesk does the following:
 - ~~Add word counts to listings~~
 - ~~Add "most recent edit" to listings~~
 - Filter by different categories
+- Fix timezones on published/updated (or disclaim the zone used - currently GMT)
