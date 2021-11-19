@@ -1,0 +1,129 @@
+.newsdesk-row {
+  padding: 5px;
+}
+
+.newsdesk-title {
+  font-weight: 700;
+  font-size: 110% !important;
+}
+
+.newsdesk-table {
+  width: 90%;
+  border-collapse: collapse;
+  background: #fff !important;
+}
+
+.newsdesk-td {
+  text-transform: capitalize;
+  padding: 0px 10px !important;
+}
+
+.nd-row-spacer {
+  background: #f1f1f1;
+  height: 10px;
+}
+
+.nd-title-row {
+  border-top: solid 1px rgb(202, 202, 202);
+}
+
+.nd-title-row td {
+  width: 100%;
+  padding: 10px 10px 5px 10px !important;
+  border-left: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+}
+
+.nd-title-row td a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+
+.nd-title-row td a:hover {
+  color: dodgerblue !important;
+}
+
+.nd-filter {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.nd-filter a:hover {
+  color: indianred !important;
+}
+
+.nd-body-row td {
+  padding: 7px 10px 7px 10px !important;
+  background: rgb(245, 245, 245);
+  border: solid 1px lightgray;
+}
+
+.nd-body-padding {
+  padding-bottom: 10px !important;
+}
+.nd-post,
+.nd-page,
+.nd-published,
+.nd-status-other,
+.nd-author {
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: dodgerblue;
+  font-size: 85%;
+  font-weight: 700;
+}
+
+.nd-page {
+  color: #c28800;
+}
+
+.nd-published {
+  color: rgb(5, 197, 5);
+}
+
+.nd-status-other {
+  background: #000;
+}
+
+.nd-author {
+  color: indianred;
+}
+
+.nd-title-bar {
+  font-weight: 700 !important;
+  font-size: 130% !important;
+  padding: 10px;
+  padding-left: 0px !important;
+  padding-top: 15px !important;
+  background: #eee !important;
+  text-align: left;
+  border-top: solid 1px lightgray;
+}
+
+.nd-meta-row {
+  background: #eee;
+}
+
+.nd-filter-selected {
+  color: #000 !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nd-editing-options {
+  font-size: 90%;
+  font-weight: 400;
+  margin-top: 3px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nd-plugin-title * {
+  display: inline-block;
+}
+
+.nd-plugin-title img {
+  width: 30px;
+  opacity: 0.5;
+  margin-left: 10px;
+}
